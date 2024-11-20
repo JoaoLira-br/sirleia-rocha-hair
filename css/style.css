@@ -45,7 +45,7 @@ body{
 	font-weight: 400;
 	color: #999;
 	
-	background-image:url(./../img/hairdresser-winds-curls-with-a-hair-iron-2023-11-27-05-24-38-utc.jpg);
+	background-image:url(./../img/banner.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1404,6 +1404,7 @@ body{
 	color:#bbb;
 }
 /*** 13.5) BOOKING ***/
+
 .booking_popup{
 	position: relative;
 	width: auto;
@@ -1416,6 +1417,13 @@ body{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.ajax-popup-link{
+	background-color: white;
+	color: black;
+}
+.ajax-popup-link__text{
+	color: black;
 }
 .makeup_fl_form{
 	width: 100%;
