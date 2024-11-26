@@ -45,11 +45,12 @@ body{
 	font-weight: 400;
 	color: #999;
 	
-	background-image:url(./../img/banner.jpg);
+	background-image:url(./../img/banner-3.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center;
 	background-attachment: fixed;
+	height: 100vh;
 }
 
 /*------------------------------------------------------------------*/
@@ -108,8 +109,6 @@ body{
 }
 .menu_in_padding{
 	padding: 80px 50px 50px 50px;
-
-
 }
 .makeup_fl_ver_menu_in .makeup_fl_logo{
 	text-align: center;
