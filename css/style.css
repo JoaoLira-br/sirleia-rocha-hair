@@ -44,8 +44,8 @@ body{
 	letter-spacing: 0.5px;
 	font-weight: 400;
 	color: #999;
-	
-	background-image:url(./../img/banner-3.jpg);
+	/* url(../img/Apresentação Sirléa Rocha_4-min.png) */
+	background-image:url(./../img/Apresentação\ Sirléa\ Rocha_4-min.png);
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -102,10 +102,10 @@ body{
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	
-	background-image: -webkit-linear-gradient( rgba(39,3,30,0.5) , rgba(0,0,0,0.5) ); /* For Safari 5.1 to 6.0 */
-    background-image: -o-linear-gradient( rgba(39,3,30,0.5) , rgba(0,0,0,0.5) ); /* For Opera 11.1 to 12.0 */
-    background-image: -moz-linear-gradient( rgba(39,3,30,0.5) , rgba(0,0,0,0.5) ); /* For Firefox 3.6 to 15 */
-    background-image: linear-gradient( rgba(39,3,30,0.5) , rgba(0,0,0,0.5) ); /* Standard syntax */
+	background-image: -webkit-linear-gradient( rgba(35,35,35,0.5) , rgba(0,0,0,0.5) ); /* For Safari 5.1 to 6.0 */
+    background-image: -o-linear-gradient( rgba(35,35,35,0.5) , rgba(0,0,0,0.5) ); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient( rgba(35,35,35,0.5) , rgba(0,0,0,0.5) ); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient( rgba(35,35,35,0.5) , rgba(0,0,0,0.5) ); /* Standard syntax */
 }
 .menu_in_padding{
 	padding: 80px 50px 50px 50px;
@@ -242,7 +242,7 @@ body{
 	height: 40px;
 	padding:0px;
 	position: relative;
-	background-color: #371352;
+	background-color: #20535E;
 	z-index: 2;
 	border:2px solid transparent;
 	
@@ -259,15 +259,16 @@ body{
 }
 .makeup_fl_ver_menu_in .makeup_fl_booking_btn .btn_b a{
 	font-size: 12px;
-	color: #bbb;
+	color: white;
+	background-color: #20535E;
 	text-transform: uppercase;
 	font-weight: 400;
 	font-style: normal;
 	margin-top: -2px;
 }
-.makeup_fl_ver_menu_in .makeup_fl_booking_btn .btn_b:hover{
-	background-color: #502A6E;
-}
+/* .makeup_fl_ver_menu_in .makeup_fl_booking_btn .btn_b a:hover{
+
+} */
 /* SOCIAL ICONS */
 .makeup_fl_social_icons{
 	width: 100%;
@@ -360,7 +361,7 @@ body{
 	height: 50px;
 	transform: rotate(45deg);
 	position: absolute;
-	background-color: #371352;
+	background-color: #20535E;
 	left: 50%;
 	top:10px;
 	margin-left: -25px;
@@ -421,7 +422,11 @@ body{
 .makeup_fl_content_testimonials{
 	width:100%;
 	float:left;
-	background-color:#0f050e;
+	/* background-color:#0f050e; */
+	background-image: -webkit-linear-gradient( rgba(35,35,35,0.5) , rgba(0,0,0,0.5) ); /* For Safari 5.1 to 6.0 */
+    background-image: -o-linear-gradient( rgba(35,35,35,0.5) , rgba(0,0,0,0.5) ); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient( rgba(35,35,35,0.5) , rgba(0,0,0,0.5) ); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient( rgba(35,35,35,0.5) , rgba(0,0,0,0.5) ); /* Standard syntax */
 	position: relative;
 	margin-bottom: 70px;
 }
@@ -510,6 +515,9 @@ body{
 	margin-left: 3%;
 	background-color: #0f050e;
 	margin-bottom: 3%;
+	height: 845px;
+	display: flex;
+	flex-direction: column;
 }
 .makeup_fl_package_list_in .pckg_img img{
 	max-width: 100%;
@@ -517,7 +525,14 @@ body{
 .makeup_fl_package_list_in .pckg_info{
 	width: 100%;
 	height: auto;
+	
 }
+.total{
+	align-self: flex-end;
+	justify-self: flex-end
+	
+}
+
 .makeup_fl_package_list_in .pckg_info .title_holder{
 	text-align: center;
 	line-height: 1.5;
@@ -567,15 +582,24 @@ body{
 	position: relative;
 	float: left;
 	z-index: 5;
+
+
 }
 .makeup_fl_package_list_in .pckg_info .price_list ul li .price_li span{
 	font-size: 14px;
 	letter-spacing: .5px;
 	color:#999;
+
+
 }
+
 .makeup_fl_package_list_in .pckg_info .price_list ul li .price_li span.span1{
 	float: left;
 	padding-right: 70px;
+
+}
+.makeup_fl_package_list_in .pckg_info .price_list ul li .price_li span.empty{
+
 }
 .makeup_fl_package_list_in .pckg_info .price_list ul li .price_li span.span2{
 	position: absolute;
@@ -592,8 +616,9 @@ body{
 	letter-spacing: .5px;
 }
 .makeup_fl_package_list_in .pckg_info .footer{
-	overflow: hidden;
+	/* overflow: hidden; */
 	margin-bottom: 40px;
+
 }
 .makeup_fl_package_list_in .pckg_info .footer .footer_btn a:after{
 	content: '';
@@ -622,7 +647,7 @@ body{
 }
 .makeup_fl_package_list_in .pckg_info .footer a:hover{
 	background: rgba(0,0,0,0.2);
-	border-color: #371352;
+	border-color: #20535E;
 }
 .makeup_fl_package_list_in .pckg_info .footer a{
 	text-decoration: none;
@@ -632,7 +657,7 @@ body{
 	padding: 10px 28px;
 	font-size: 12px;
 	display: inline-block;
-	background-color: #371352;	
+	background-color: #20535E;	
 	z-index: 3;
 	position: relative;
 	border: 2px solid transparent;
@@ -732,7 +757,7 @@ body{
 }
 .makeup_fl_header .makeup_fl_booking_btn .btn_b{
 	position: relative;
-	background-color: #371352;
+	background-color: #20535E;
 	border:2px solid transparent;
 	height: 40px;
 	
@@ -844,7 +869,7 @@ body{
 	margin-bottom: 4px;
 }
 .makeup_fl_content_in .makeup_fl_pagination ul li a.active{
-	background-color:#371352;
+	background-color:#20535E;
 	color: #bbb;
 }
 .makeup_fl_content_in .makeup_fl_pagination ul li a{
@@ -985,7 +1010,7 @@ body{
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	padding: 13px 58px;
-	background-color: #371352;
+	background-color: #20535E;
 	position: relative;
 	display: inline-block;
 }
@@ -1092,7 +1117,7 @@ body{
 }
 .makeup_fl_content_wrap .makeup_fl_services .service .srv_img .price span{
 	padding: 9px 25px;
-	background: #371352;
+	background: #20535E;
 	color: #bbb;
 	font-size: 15px;
 	letter-spacing: 1px;
@@ -1191,7 +1216,7 @@ body{
 }
 .makeup_fl_common .common_full_info .title_holder .common_price span{
 	padding: 9px 25px;
-	background: #371352;
+	background: #20535E;
 	color: #bbb;
 	font-size: 15px;
 	letter-spacing: 1px;
@@ -1217,14 +1242,14 @@ body{
 	color: #bbb;
 	letter-spacing: 1px;
 	padding: 11px 36px;
-	background: #371352;
+	background: #20535E;
 	font-size: 12px;
 	border: 2px solid transparent;
 	display: inline-block;
 }
 .makeup_fl_btn a:hover{
 	background: rgba(0,0,0,0.2);
-	border-color: #371352;
+	border-color: #20535E;
 }
 
 /*------------------------------------------------------------------*/ 
@@ -1417,10 +1442,11 @@ body{
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
-.ajax-popup-link{
+/* .ajax-popup-link{
 	background-color: white;
 	color: black;
-}
+} */
+
 .ajax-popup-link__text{
 	color: black;
 }
