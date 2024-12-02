@@ -536,7 +536,10 @@ body{
 	width: 100%;
 	height: auto;
 	position: relative;
-	
+	/* background: url(../img/servicos-bcg-2.png) */
+}
+.makeup_fl_package_list_in .pckg_info *{
+	/* outline: 1px solid red; */
 }
 .total{
 	align-self: flex-end;
@@ -584,6 +587,13 @@ body{
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
+.makeup_fl_package_list_in .pckg_info .price_list ul li:nth-child(even){
+	/* background-color: #20535E; */
+}
+.makeup_fl_package_list_in .pckg_info .price_list ul li:nth-child(odd){
+	/* background:  url(../img/servicos-bcg.png); */
+	color: #150f13;
+}
 .makeup_fl_package_list_in .pckg_info .price_list ul li:last-child{
 	margin-bottom: 0px;
 }
@@ -592,14 +602,16 @@ body{
 	height: auto;
 	position: relative;
 	float: left;
+	/* padding: 4%; */
 	z-index: 5;
-
+	/* background-color: #20535E; */
 
 }
 .makeup_fl_package_list_in .pckg_info .price_list ul li .price_li span{
 	font-size: 14px;
 	letter-spacing: .5px;
-	color:#999;
+	color: white;
+	
 
 
 }
@@ -652,10 +664,10 @@ body{
 	background-color: rgba(255,255,255,.05);
 }
 .makeup_fl_package_list_in .pckg_info .footer .footer_btn{
-	position: absolute;
+	/* position: absolute;
 	bottom: 5%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	left: 50%; */
+	/* transform: translate(-50%, -50%); */
 	display: block;
 	min-width: 300px;
 	width: 80%;
@@ -680,7 +692,7 @@ body{
 	display: inline-block;
 	background-color: #20535E;	
 	z-index: 3;
-	position: relative;
+	/* position: relative; */
 	border: 2px solid transparent;
 }
 /*------------------------------------------------------------------*/ 
@@ -1056,22 +1068,41 @@ body{
 }
 .makeup_fl_about_team .team_holder{
 	margin-left: -3%;
+	display: flex;
+	flex-direction: column;
+
 }
+.makeup_fl_about_team .team_holder *{
+	/* outline: 1px solid red; */
+}
+/* .makeup_fl_masonry{
+	display: flex;
+} */
+
 .makeup_fl_about_team .team_holder .specialist{
 	width: 47%;
 	margin-left: 3%;
-	height: auto;
-	float: left;
+
 	margin-bottom: 20px;
+
+
 }
+
 .makeup_fl_about_team .team_holder .specialist .spc_img{
 	margin-bottom: 20px;
 	position: relative;
-	background: url(../img/about/giovana.jpeg);
-	
+
+	/* background: url(../img/about/giovana.jpeg); */
+
 }
+.spc_img-img{}
+
 .makeup_fl_about_team .team_holder .specialist .spc_img img{
 	z-index: 5;
+	object-fit: cover;
+	object-position: top;
+	width: 100%;
+	height: 300px;
 }
 .makeup_fl_about_team .team_holder .specialist .spc_img .overlay{
 	position: absolute;
@@ -1106,6 +1137,7 @@ body{
 .makeup_fl_content_wrap .makeup_fl_services{
 	margin-left: -3%;
 	width: auto;
+
 }
 .makeup_fl_content_wrap .makeup_fl_services .service{
 	width: 47%;
@@ -1114,16 +1146,21 @@ body{
 	margin-bottom: 43px;
 	float: left;
 }
-.makeup_fl_content_wrap .makeup_fl_services .service .srv_img{
+.makeup_fl_content_wrap .makeup_fl_services .service .srv_img-container{
 	position: relative;
 	width: 100%;
 	margin-bottom: 20px;
 }
-.makeup_fl_content_wrap .makeup_fl_services .service .srv_img img{
+.makeup_fl_content_wrap .makeup_fl_services .service .srv_img-container img{
 	z-index: 5;
 	min-width: 100%;
+	filter: grayscale(100%);
+	object-fit: cover;
+	height: 300px;
+
+
 }
-.makeup_fl_content_wrap .makeup_fl_services .service .srv_img .overlay{
+.makeup_fl_content_wrap .makeup_fl_services .service .srv_img-container .overlay{
 	position: absolute;
 	top: 0px;
 	right: 0px;
@@ -1132,13 +1169,13 @@ body{
 	background-color: rgba(0,0,0,.3);
 	z-index: 10;
 }
-.makeup_fl_content_wrap .makeup_fl_services .service .srv_img .price{
+.makeup_fl_content_wrap .makeup_fl_services .service .srv_img-container .price{
 	position: absolute;
 	z-index: 15;
 	right: 10px;
 	bottom: 10px;
 }
-.makeup_fl_content_wrap .makeup_fl_services .service .srv_img .price span{
+.makeup_fl_content_wrap .makeup_fl_services .service .srv_img-container .price span{
 	padding: 9px 25px;
 	background: #20535E;
 	color: #bbb;
@@ -1169,7 +1206,7 @@ body{
 	font-size: 14px;
 	color: #999;
 }
-.makeup_fl_services .service .srv_img > a{
+.makeup_fl_services .service .srv_img-container > a{
 	position: absolute;
     top: 0px;
     right: 0px;
@@ -1653,7 +1690,12 @@ ul.makeup_fl_gallery_list li img{
 /*  COMMON TEMPLATES CONTENT */
 .makeup_fl_common .common_img{text-align: center;}
 /*  ABOUT  */
-.makeup_fl_about_team .team_holder .specialist .spc_img{text-align: center;}
+.makeup_fl_about_team .team_holder .specialist .spc_img{text-align: center;
+
+}
+.makeup_fl_about_team .team_holder .specialist .spc_img img{
+	height: 400px;
+}
 /*  PAGINATION  */
 .makeup_fl_content_in .makeup_fl_pagination{margin-bottom: 50px;}
 /*  GALLERY  */
@@ -1691,6 +1733,9 @@ ul.makeup_fl_gallery_list li{margin-left: 2%;margin-bottom: 2%;width: 48%;}
 .makeup_fl_common .common_full_info .common_info{margin-bottom: 43px;}
 .makeup_fl_about_team .title_holder{margin-bottom: 24px;}
 .makeup_fl_about_team .team_holder .specialist{width: 100%; margin: 0px;}
+.makeup_fl_about_team .team_holder .specialist .spc_img img{
+	object-fit: cover;
+}
 .makeup_fl_about_team .team_holder .specialist:last-child{margin-bottom: 0px;}
 .makeup_fl_about_team .team_holder{margin-left: 0px;}
 /*  SERVICES  */
