@@ -253,7 +253,7 @@ body{
 	background-color: #20535E;
 	z-index: 2;
 	border:2px solid transparent;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
@@ -1295,6 +1295,20 @@ body{
 .makeup_fl_common .common_full_info .common_info p:last-child{
 	margin-bottom: 0px;
 }
+.srv_msg-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 47%;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+	display: none;
+}
+.srv_msg-title{
+	color: #999;
+
+}
 .common_options{
 	padding-top: 2%;
 	position: relative;
@@ -1341,7 +1355,11 @@ margin: 0;
 }
 
 /* MAIN BUTTON */
+.makeup_fl_btn{
+text-align: center;
+}
 .makeup_fl_btn a{
+
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #bbb;
@@ -1775,6 +1793,12 @@ ul.makeup_fl_gallery_list li{margin-left: 2%;margin-bottom: 2%;width: 48%;}
 .srv-price{
 font-size: 0.75rem;
 }
+.srv_msg-title{
+	font-size: 1rem;
+}
+.srv_msg{
+	font-size: 0.75rem;
+}
 .srv_from{
 	top: 0%;
 }
@@ -1821,6 +1845,12 @@ ul.makeup_fl_gallery_list li{margin-left: 0%;margin-bottom: 2%;width: 100%;}
 .srv-option,
 .srv-price{
 font-size: 0.5rem;
+}
+.srv_msg-title{
+	font-size: 0.75rem;
+}
+.srv_msg{
+	font-size: 0.5rem;
 }
 
 
