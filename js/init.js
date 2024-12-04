@@ -179,8 +179,8 @@ function makeup_fl_contact_form_contactsend(){
 		return false;
 	 
 	});
-	
 }
+
 // -----------------------------------------------------
 // -----------    CONTACT FORM FOR LIGHTBOX   ----------
 // -----------------------------------------------------

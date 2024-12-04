@@ -1,7 +1,7 @@
 <?php
 
 // Put contacting email here
-$main_email = "ghost_9292@mail.ru";
+$main_email = "joao.lirajvl@outlook.com";
 
 
 //Fetching Values from URL
@@ -48,7 +48,7 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 		
 		// Send mail by PHP Mail Function
 		mail($main_email, $subject, $sendmessage, $headers);
-		echo "";
+		echo "pimba";
 	
 	
 } else {
