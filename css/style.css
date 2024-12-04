@@ -45,7 +45,7 @@ body{
 	font-weight: 400;
 	color: #999;
 	/* url(../img/Apresentação Sirléa Rocha_4-min.png) */
-	background-image:url(./../img/Apresentação\ Sirléa\ Rocha_4-min.png);
+	background-image:url(/makeup/img/hero-banner.png);
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center;
