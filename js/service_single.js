@@ -8,6 +8,8 @@ const SRC_AESTHETICS = "img/services/beauty-master-applies-a-rejuvenating-mask-t
 const SRC_MASSAGE = "img/services/massaging-the-body-and-mind-shot-of-a-beautiful-y-2023-11-27-05-28-38-utc-min.jpg"
 const SRC_WAXING = "img/services/depilação-min.png"
 const SRC_MAKEUP = "img/services/maquiagem-min.png"
+const SRC_BRIDE_SILVER = "/makeup/img/Screenshot 2024-11-30 at 8.09.22 AM.png"
+const SRC_BRIDE_GOLD = "img/Screenshot 2024-11-30 at 8.14.41 AM.png"
 
 const TITLE_HAIR = "Cabelo & Cia"
 const STR_HAIR = ["CORTE FEMININO (ESCOVA INCLUSA)", "CORTE MASCULINO", "ESCOVA", "COLORAÇÃO", "RETOQUE DE RAÍZ", "BOTOX CAPILAR", "ESCOVA PROGRESSIVA", "MECHAS", "CAUTERIZAÇÃO CAPILAR",
@@ -60,7 +62,18 @@ const STR_MAKEUP = ["MAQUIAGEM PROFISSIONAL", "MAQUIAGEM TEMÁTICA"]
 const PRICE_MAKEUP = ["R$ 180,00", "R$ 230,00"]
 const SRV_MAKEUP = {SRC: SRC_MAKEUP, STR: STR_MAKEUP, PRICE: PRICE_MAKEUP, TITLE: TITLE_MAKEUP}
 
-const SERVICES = {"naildesign": SRV_NAIL_DESIGN, "hair": SRV_HAIR, "eyebrows": SRV_EYEBROWS, "eyelashextensions": SRV_EYELASH_EXTENSIONS, "maintenance": SRV_MAINTENANCE, "aesthetics": SRV_AESTHETICS, "massage": SRV_MASSAGE, "waxing": SRV_WAXING, "makeup": SRV_MAKEUP}
+const TITLE_BRIDE_SILVER = "NOIVA SILVER"
+const STR_BRIDE_SILVER = ["Maquiagem profissional", "Teste de penteado", "Penteado profissional", "Auxílio vestimenta", "Manicure", "Pedicure"]
+const PRICE_BRIDE_SILVER = ["R$ 810,90"]
+const SRV_BRIDE_SILVER = {SRC: SRC_BRIDE_SILVER, STR: STR_BRIDE_SILVER, PRICE: PRICE_BRIDE_SILVER, TITLE: TITLE_BRIDE_SILVER}
+
+const TITLE_BRIDE_GOLD = "NOIVA GOLD"
+const STR_BRIDE_GOLD = ["Maquiagem profissional", "Teste de penteado", "Penteado profissional", "Auxílio vestimenta", "Manicure", "Pedicure", "Coquetel com espumante", "Massagem relaxante"]
+const PRICE_BRIDE_GOLD = ["R$ 1.145,90"]
+const SRV_BRIDE_GOLD = {SRC: SRC_BRIDE_GOLD, STR: STR_BRIDE_GOLD, PRICE: PRICE_BRIDE_GOLD, TITLE: TITLE_BRIDE_GOLD}
+
+
+const SERVICES = {"nail_design": SRV_NAIL_DESIGN, "hair": SRV_HAIR, "eyebrows": SRV_EYEBROWS, "eyelash_extensions": SRV_EYELASH_EXTENSIONS, "maintenance": SRV_MAINTENANCE, "aesthetics": SRV_AESTHETICS, "massage": SRV_MASSAGE, "waxing": SRV_WAXING, "makeup": SRV_MAKEUP, "bride_silver": SRV_BRIDE_SILVER, "bride_gold": SRV_BRIDE_GOLD}
 // ============================= CONSTANTS ========================================
 
 
