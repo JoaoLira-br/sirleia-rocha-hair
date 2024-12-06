@@ -806,6 +806,7 @@ body{
 	-moz-transition: all .5s ease;
 	-webkit-transition: all .5s ease;
 }
+
 .makeup_fl_header .makeup_fl_booking_btn .btn_b a{
 	font-size: 12px;
 	color: #bbb;
@@ -815,8 +816,10 @@ body{
 	padding:0px 28px;
 	margin-top: -2px;
 }
+
 .makeup_fl_header .makeup_fl_booking_btn .btn_b:hover{
-	background-color: #502A6E;
+    background: rgba(0, 0, 0, 0.2);
+    border-color: #20535E;
 }
 /* NAVIGATION LIST*/
 .makeup_fl_header .makeup_fl_header_nav_list{

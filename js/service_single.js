@@ -87,13 +87,14 @@ $(function(){
         return service_list;
     }
     const service = getUrlParams(window.location.search);
-    
+    console.log(service);
     const service_data = SERVICES[service];
 
     displayService(service_data);
 
 
     function displayService(service_data){
+        console.log(service_data);
         if(!service_data) {
             // todo: return page not found
             return;
