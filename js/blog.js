@@ -1,8 +1,10 @@
 $(document).ready(function() {
+
 const blogs = $(".makeup_fl_blog_list");
 const common = $(".blog_entry");
 console.log(common);
 const pages = $(".pg_number a");
+
 const items_per_page = 3;
 let active_page = pages.first();
 let active_idx = 0;
@@ -62,11 +64,15 @@ function switchActivePage(page){
         active_page.removeClass("active");
         pages.eq(active_idx).addClass("active");
         active_page = pages.eq(active_idx);
+        $(".pages_span").text(`Viewing pages ${active_idx + 1} of ${pages.length}`);
+
     }else{
         active_page.removeClass("active");
         page.addClass("active");
         active_page = page;
         active_idx = page.html() - 1;
+        $(".pages_span").text(`Viewing pages ${active_idx + 1} of ${pages.length - 1}`);
+
     }
 }
 // pages.forEach( page => {

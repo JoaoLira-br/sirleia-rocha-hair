@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "../.."
+		},
+		{
+			"path": "../../../../Repos/fse/week6/movie-finder"
 		}
 	],
 	"settings": {
