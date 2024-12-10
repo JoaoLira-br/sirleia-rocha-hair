@@ -1,15 +1,15 @@
 // ============================= CONSTANTS ========================================
-const SRC_HAIR = "makeup/img/services/healthy-curly-hair-woman-long-blonde-hairstyle-fem-2023-11-27-05-20-14-utc-min.jpg"
-const SRC_NAIL_DESIGN = "makeup/img/services/nail-artist-doing-neat-manicure-2024-07-04-02-06-03-utc-min.jpg";
-const SRC_EYEBROWS = "makeup/img/services/Screenshot 2024-12-02 at 9.19.05 AM-min.png"
-const SRC_EYELASH_EXTENSIONS = "makeup/img/services/adult-woman-having-eyelash-extension-in-profession-2023-11-27-04-52-23-utc-min.JPG"
-const SRC_MAINTENANCE = "makeup/img/services/nails-spa-2024-05-22-17-39-08-utc-min.JPG"
-const SRC_AESTHETICS = "makeup/img/services/beauty-master-applies-a-rejuvenating-mask-to-the-c-2024-08-05-22-20-39-utc-min.jpg"
-const SRC_MASSAGE = "makeup/img/services/massaging-the-body-and-mind-shot-of-a-beautiful-y-2023-11-27-05-28-38-utc-min.jpg"
-const SRC_WAXING = "makeup/img/services/depilação-min.png"
-const SRC_MAKEUP = "makeup/img/services/maquiagem-min.png"
-const SRC_BRIDE_SILVER = "makeup/img/Screenshot 2024-11-30 at 8.09.22 AM.png"
-const SRC_BRIDE_GOLD = "makeup/img/Screenshot 2024-11-30 at 8.14.41 AM.png"
+const SRC_HAIR = "../img/services/healthy-curly-hair-woman-long-blonde-hairstyle-fem-2023-11-27-05-20-14-utc-min.jpg"
+const SRC_NAIL_DESIGN = "../img/services/nail-artist-doing-neat-manicure-2024-07-04-02-06-03-utc-min.jpg";
+const SRC_EYEBROWS = "../img/services/Screenshot 2024-12-02 at 9.19.05 AM-min.png"
+const SRC_EYELASH_EXTENSIONS = "../img/services/adult-woman-having-eyelash-extension-in-profession-2023-11-27-04-52-23-utc-min.JPG"
+const SRC_MAINTENANCE = "../img/services/nails-spa-2024-05-22-17-39-08-utc-min.JPG"
+const SRC_AESTHETICS = "../img/services/beauty-master-applies-a-rejuvenating-mask-to-the-c-2024-08-05-22-20-39-utc-min.jpg"
+const SRC_MASSAGE = "../img/services/massaging-the-body-and-mind-shot-of-a-beautiful-y-2023-11-27-05-28-38-utc-min.jpg"
+const SRC_WAXING = "../img/services/depilação-min.png"
+const SRC_MAKEUP = "../img/services/maquiagem-min.png"
+const SRC_BRIDE_SILVER = "../img/Screenshot 2024-11-30 at 8.09.22 AM.png"
+const SRC_BRIDE_GOLD = "../img/Screenshot 2024-11-30 at 8.14.41 AM.png"
 
 const TITLE_HAIR = "Cabelo & Cia"
 const STR_HAIR = ["CORTE FEMININO (ESCOVA INCLUSA)", "CORTE MASCULINO", "ESCOVA", "COLORAÇÃO", "RETOQUE DE RAÍZ", "BOTOX CAPILAR", "ESCOVA PROGRESSIVA", "MECHAS", "CAUTERIZAÇÃO CAPILAR",
