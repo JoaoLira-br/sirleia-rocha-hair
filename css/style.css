@@ -1284,7 +1284,7 @@ bottom: 0;
   object-fit: cover;
   object-position: top;
   width: 100%;
-  height: 400px;
+  height: 600px;
 }
 .makeup_fl_about_team .team_holder .specialist .spc_img .overlay {
   position: absolute;
@@ -1320,6 +1320,7 @@ bottom: 0;
   margin-left: -3%;
   width: auto;
 }
+
 .makeup_fl_content_wrap .makeup_fl_services .service {
   width: 47%;
   height: auto;
@@ -1420,7 +1421,7 @@ bottom: 0;
   /* object-position: top; */
   width: 100%;
   /* overflow: scroll; */
-  max-height: 60svh;
+
 }
 
 .makeup_fl_common .common_img .overlay {
@@ -1993,9 +1994,7 @@ ul.makeup_fl_gallery_list li img {
   .makeup_fl_about_team .team_holder .specialist .spc_img {
     text-align: center;
   }
-  .makeup_fl_about_team .team_holder .specialist .spc_img img {
-    height: 400px;
-  }
+  
   /*  PAGINATION  */
   .makeup_fl_content_in .makeup_fl_pagination {
     margin-bottom: 50px;
