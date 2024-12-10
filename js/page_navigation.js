@@ -19,17 +19,19 @@ const navMap = {
   contact: navListItems[5],
 };
 
-console.log(rotatingShape, upArrow, navListItems);
-const urlPath = window.location.pathname; // Get the path (e.g., "/about/contact")
+
+
+const urlPath = window.location.pathname;
+
 let lastSegment = urlPath.substring(urlPath.lastIndexOf("/") + 1);
 lastSegment = lastSegment.slice(0, lastSegment.indexOf("."));
-console.log(lastSegment); // Extract the last portion
+
 currentPageListItem = navMap[lastSegment];
 
 if (!currentPageListItem) {
-displayNotFound();
+    window.location.href = "index.html";
 }
-console.log(currentPageListItem);
+
 // Initial update
 updatePosition();
 
@@ -52,9 +54,9 @@ function updatePosition() {
     rotatingShape.style.left = `${xRatio}%`;
     upArrow.style.left = `${xRatio}%`;
 }
-function displayNotFound(){
-    pageContent.innerHTML = "<div><h1>Não encontramos esta página</h1><h2>Retroceda a pagina inicial e recomeça.</h2><h3> <a href=\"index.html\"> </a> </h3></div>";
+// function displayNotFound(){
+//     pageContent.innerHTML = "<div><h1>Não encontramos esta página</h1><h2>Retroceda a pagina inicial e recomeça.</h2><h3> <a href=\"index.html\"> </a> </h3></div>";
 
-}
+// }
 
 
